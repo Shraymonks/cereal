@@ -506,6 +506,7 @@ struct CarParams {
     friction @3 :Float32;
     kf @4 :Float32;
     steeringAngleDeadzoneDeg @5 :Float32;
+    applyRollCompensation @6 :Bool;
   }
 
   struct LongitudinalPIDTuning {
